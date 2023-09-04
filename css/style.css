@@ -35,22 +35,20 @@ header{
 	background-color: tomato;
 } */
 
-.debug .container .header-flex {
-	padding: 10px;
-	border: 2px solid black;
-}
 
 .debug [class^='col-'] {
 	/* min-height: 100px; */
 	padding: 10px;
-	border: 2px solid rgb(219, 237, 100);
+	/* border: 2px solid rgb(219, 237, 100); */
 }
 
 /* inizio sezione 1 */
 
-.col1 {
+.col-1 {
     flex-basis: calc(100%);
-    min-height: 500px;
+    min-height: 250px;
+	border: 1px dashed black;
+    
 }
 
 .section-one {
@@ -61,7 +59,29 @@ header{
 .row-section-one {
     display: flex;
     background-color: rgb(241, 47, 255);
-    justify-content: center;
-    padding: 80px;
 }
 
+/* inizio sezione 2 */
+
+.col-1-section-two {
+    flex-basis: calc(100% / 8);
+    min-height: 250px;
+	border: 1px dashed black;
+    
+}
+
+.col-2-section-two {
+    flex-basis: calc(100% / 4);
+    min-height: 250px;
+	border: 1px dashed black;
+    
+}
+
+.section-two {
+    padding: 40px;
+}
+
+.row-section-two {
+    display: flex;
+    background-color: rgb(241, 47, 255);
+}
