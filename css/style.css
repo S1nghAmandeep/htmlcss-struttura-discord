@@ -11,12 +11,12 @@
 
 header{
     background-color: aqua;
-    padding: 20px;
+    padding: 10px;
 
 }
+
 .row {
     display: flex;
-    /* max-width: 800px; */
     background-color: burlywood;
     justify-content: space-between;
 }
@@ -29,6 +29,7 @@ header{
 .col-10 {
     flex-basis: calc((100% / 12) *10 );
 }
+
 
 /* .debug {
 	background-color: tomato;
