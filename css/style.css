@@ -18,6 +18,7 @@ header{
     display: flex;
     max-width: 800px;
     background-color: burlywood;
+    justify-content: space-between;
 }
 
 .col3 {
@@ -30,11 +31,37 @@ header{
     flex-basis: calc(100% / 3);
 }
 
-.debug {
+/* .debug {
 	background-color: tomato;
-}
+} */
 
 .debug .container .header-flex {
 	padding: 10px;
 	border: 2px solid black;
 }
+
+.debug [class^='col-'] {
+	/* min-height: 100px; */
+	padding: 10px;
+	border: 2px solid rgb(219, 237, 100);
+}
+
+/* inizio sezione 1 */
+
+.col1 {
+    flex-basis: calc(100%);
+    min-height: 500px;
+}
+
+.section-one {
+    background-color: blue;
+    padding: 40px;
+}
+
+.row-section-one {
+    display: flex;
+    background-color: rgb(241, 47, 255);
+    justify-content: center;
+    padding: 80px;
+}
+
